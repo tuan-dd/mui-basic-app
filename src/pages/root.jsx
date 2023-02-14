@@ -31,7 +31,7 @@ function Root() {
    return (
       <>
          <Container
-            sx={{ bgcolor: on ? 'black' : 'white', height: '100%' }}
+            sx={{ bgcolor: on ? 'black' : 'white',}}
             disableGutters
             maxWidth='false'
          >
@@ -47,9 +47,9 @@ function Root() {
                <Pagination
                   sx={{
                      bgcolor: on ? 'pink' : 'white',
-                     mr: 2,
-                     padding: 0.5,
-                     borderRadius: 2,
+                  m: 2,
+                  p: 1,
+                  borderRadius: 2,
                   }}
                   variant='outlined'
                   color='primary'
